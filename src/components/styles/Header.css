@@ -1,0 +1,8 @@
+.main-top{
+  background: transparent !important;
+  backdrop-filter: blur(20px);
+}
+
+.main-header{
+  z-index: 5;
+}

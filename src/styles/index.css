@@ -1,0 +1,37 @@
+h1,h2,h3,h4,h5{
+  font-family: "DM Sans", sans-serif;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: black;
+}
+
+.get-started-btn{
+  padding: 13px 23px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 6px 6px 0px rgb(181, 167, 224);
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.get-started-btn:hover{
+  transform: scale(1.2) rotate(-10deg);
+  background-color: black; 
+  color: white;
+  box-shadow: 0px 0px 50px rgba(92, 54, 218,0.3);
+}

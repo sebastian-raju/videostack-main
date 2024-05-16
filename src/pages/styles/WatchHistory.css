@@ -1,0 +1,90 @@
+.history-main-home-container{
+  background-image: url("https://i.postimg.cc/YCXzLVhR/synthwave-retrowave-grid-uhdpaper-com-hd-4-3240.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.history-backdropFilter{
+  background-color: rgba(255, 255, 255, 0);
+
+  -webkit-backdrop-filter: blur(2px);
+
+  backdrop-filter: blur(2px);
+
+  padding: 20px 30px;
+  padding-bottom: 140px;
+}
+
+
+.watch-history-container{
+  margin-top: 180px;
+
+}
+
+.history-title{
+  font-size: 35px;
+}
+
+.row-heading{
+ background-color: black;
+}
+
+.transparent-table{
+  background-color: rgba(0, 0, 0, 0.622);
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.back-button{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(230, 197, 238);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.353);
+  padding: 7px 18px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(207, 202, 222, 0.6);
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+}
+
+.back-button:hover{
+  background-color: black;
+
+}
+
+.watch-recently-btn{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(230, 197, 238);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.353);
+  padding: 7px 18px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(207, 202, 222, 0.6);
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+}
+
+.watch-recently-btn:hover{
+  background-color: black;
+
+}
+
+.watch-back-btn{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(230, 197, 238);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.353);
+  padding: 7px 14px;
+  margin-left: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 12px rgba(207, 202, 222, 0.6);
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+}

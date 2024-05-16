@@ -1,0 +1,98 @@
+.hero-section{
+  /* background-color: rgb(213, 52, 52); */
+  background-image: url("https://i.postimg.cc/YCXzLVhR/synthwave-retrowave-grid-uhdpaper-com-hd-4-3240.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 650px;
+  margin-top: 150px;
+  box-shadow: 0px 0px 50px rgba(92, 54, 218,0.3);
+}
+
+
+
+.main-title{
+  font-size: 90px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+  margin-bottom: 40px;
+  line-height: 60px;
+}
+
+.sub-title1{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+.features-section{
+  border-radius: 30px;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.feature-title{
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.managing-videos-container{
+  height: 500px;
+  background-color: black;
+  box-shadow: 0px 0px 50px rgba(92, 54, 218,0.3);
+  border-radius: 35px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+
+.managing-videos-container:hover{
+  transform: scale(1.04) rotate(-1deg);
+  cursor: pointer;
+}
+
+.image-container{
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(188, 175, 227);
+  text-shadow: 0px 0px 12px rgba(207, 202, 222, 0.6)
+}
+
+
+.card-content{
+  color: white;
+  text-shadow: 0px 0px 12px rgba(207, 202, 222, 0.6);
+  padding: 20px;
+}
+
+
+@media(max-width: 700px){
+  .hero-section{
+    height: 500px;
+  }
+}
+
+
+
